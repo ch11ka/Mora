@@ -1,0 +1,10 @@
+user-agent: AdsBot-Google
+disallow: /power
+disallow: /Cl
+
+user-agent: Googlebot 
+Disallow: /account
+Disallow: /matches
+
+
+Sitemap: https://matchora.com/sitemap.xml

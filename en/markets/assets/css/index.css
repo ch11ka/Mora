@@ -1,0 +1,278 @@
+
+
+
+/*fonts-start-here */
+
+@font-face {
+    font-family: robo-light;
+    src: url("../fonts/roboto/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: robo-medium;
+    src: url("../fonts/roboto/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: robo-bold;
+    src: url("../fonts/roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: open-light;
+    src: url("../fonts/openSans/OpenSans-Light.ttf");
+}
+@font-face {
+    font-family: open-regular;
+    src: url("../fonts/openSans/OpenSans-Regular.ttf");
+}
+@font-face {
+    font-family: open-semibold;
+    src: url("../fonts/openSans/OpenSans-Semibold.ttf");
+}
+@font-face {
+    font-family: open-bold;
+    src: url("../fonts/openSans/OpenSans-Bold.ttf");
+}
+
+
+.RobotoLight{
+    font-family: robo-light;
+}
+.RobotoMedium{
+    font-family: robo-medium;
+}
+.RobotoBold{
+    font-family: robo-bold;
+}
+.RobotoLight{
+    font-family: open-light;
+}
+.OpensansRegular{
+    font-family: open-regular;
+}
+.OpensanssemBold{
+    font-family: open-semibold;
+}
+.OpenBold{
+    font-family: open-bold;
+}
+body{
+    font-family: open-regular;
+    line-height: 25px;
+    letter-spacing: 0.8px;
+}
+.overlay{
+    background-color: rgba(14, 30, 47, 0.92);
+}
+.OwlPadding{
+    padding-top: 190px;
+    padding-bottom: 125px;
+}
+.mt-20{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/*fonts-end-here */
+
+
+/* banner styles start here */
+#banner-section{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.BigFont{
+    font-family: robo-bold;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 55px;
+    text-transform: capitalize;
+}
+.white{
+    color: #fff;
+}
+.BannerPlayBtn{
+    border-radius: 50%;
+    padding: 16px 20px 16px 27px;
+    text-align: center;
+}
+.leftSpace{
+    padding-left: 15px;
+}
+.spacetop{
+    padding: 30px 0px;
+}
+.buyBtn{
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 12px 40px;
+    border: 1px solid #fff;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+    margin-top: 20px;
+}
+.buyBtn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* banner styles end here */
+
+
+
+/*content area styles start here*/
+
+.somePadding{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.MainBanner .owl-controls{
+    margin-top: -80px;
+    position: absolute;
+}
+.goFixy{
+    margin-top: -95px;
+    z-index: -1;
+}
+.navbar-default{
+    z-index: 9;
+    overflow: hidden;
+}
+.sectionPadding{
+    padding: 80px 15px;
+}
+.backLandingTemplate{
+    background-image: url("../images/misc/frame.png");
+    padding-top: 4.5%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.demoOverlay{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.05);
+}
+.backLandingTemplate:hover .demoOverlay{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    height: 100%;
+}
+.backLandingTemplate:hover{
+    box-shadow: 0px 0px 20px #aaa;
+}
+.demoTitle{
+    margin: 25px 0px;
+    text-align: center;
+    color: #888;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.opacit{
+    opacity: 0.8;
+}
+.overlay1{
+    background: rgb(56,131,224); /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(56,131,224,1) 0%, rgba(211,71,224,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(56,131,224,1) 0%,rgba(211,71,224,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(56,131,224,1) 0%,rgba(211,71,224,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3883e0', endColorstr='#d347e0',GradientType=1 ); /* IE6-9 */
+}
+.overlay2{
+    background: rgb(29, 107, 241); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(29, 107, 241, 1) 0%, rgba(20, 229, 132, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(29, 107, 241, 1) 0%, rgba(20, 229, 132, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(29, 107, 241, 1) 0%, rgba(20, 229, 132, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1d6bf1', endColorstr='#14e584', GradientType=1); /* IE6-9 fallback on horizontal gradient */
+}
+.overlay3{
+    background: rgb(221,48,83); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(221,48,83,1) 0%, rgba(153,51,178,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(221,48,83,1) 0%,rgba(153,51,178,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(221,48,83,1) 0%,rgba(153,51,178,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dd3053', endColorstr='#9933b2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+
+/*content area styles start here*/
+
+
+
+/* loading styles start here*/
+
+
+.pageLoader{
+    background-color: #ffffff;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 2000;
+}
+.loaderArea{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    z-index: 2100;
+}
+.Myloader1{
+    height: 100%;
+    position: relative;
+}
+.gradient_circle{
+    animation: 1s linear 0s normal none infinite running rotateThis;
+    border-radius: 100%;
+    box-shadow: 0 1px 0 0 rgba(225, 131, 194, 0.25), 0 -1px 0 0 rgba(165, 181, 222, 0.25), 1px 0 0 0 rgba(225, 131, 194, 0.25), -1px 0 0 0 rgba(165, 181, 222, 0.25), 1px -1px 0 0 rgba(195, 156, 208, 0.5), -1px 1px 0 0 rgba(195, 156, 208, 0.5), 1px 1px 0 0 rgba(255, 105, 180, 0.75), -1px -1px 0 0 rgba(135, 206, 235, 0.75);
+    height: 90px;
+    margin-left: -45px;
+    margin-top: -45px;
+    width: 90px;
+}
+.gradient_circle {
+    margin-top: -45px;
+    margin-left: -45px;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    box-shadow: 0 1px 0 0 rgba(225, 131, 194, .25), 0 -1px 0 0 rgba(165, 181, 222, .25), 1px 0 0 0 rgba(225, 131, 194, .25), -1px 0 0 0 rgba(165, 181, 222, .25), 1px -1px 0 0 rgba(195, 156, 208, .5), -1px 1px 0 0 rgba(195, 156, 208, .5), 1px 1px 0 0 rgba(255, 105, 180, .75), -1px -1px 0 0 rgba(135, 206, 235, .75);
+    animation: rotateThis 1s linear infinite
+}
+@-o-keyframes rotateThis {
+    from {
+        transform: rotate(0) scale(1)
+    }
+    to {
+        transform: rotate(360deg) scale(1)
+    }
+}
+@-moz-keyframes rotateThis {
+    from {
+        transform: rotate(0) scale(1)
+    }
+    to {
+        transform: rotate(360deg) scale(1)
+    }
+}
+@-webkit-keyframes rotateThis {
+    from {
+        transform: rotate(0) scale(1)
+    }
+    to {
+        transform: rotate(360deg) scale(1)
+    }
+}
+@keyframes rotateThis {
+    from {
+        transform: rotate(0) scale(1)
+    }
+    to {
+        transform: rotate(360deg) scale(1)
+    }
+}
+
+/* loading styles end here*/
